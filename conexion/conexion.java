@@ -18,17 +18,13 @@ public class conexion {
         }catch (ClassNotFoundException | SQLException e){
             System.out.println("Ocurrio un error en la conexion: " +e.getMessage());
         }
-
         return conexion;
     }
-
         public static void main(String[] args) {
         var conexion = marma.conexion.conexion.getConexion();
         if (conexion != null)
             System.out.println("Conexion exitosa: " + conexion);
         else
             System.out.println("Error al conectarse");
-
-
         }
 }

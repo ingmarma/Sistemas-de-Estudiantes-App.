@@ -192,7 +192,5 @@ public class EstudianteDAO {
           System.out.println("No se encontro estudiante: "
                 + estudiante1.getIdEstudiante());
     }
-
-
 }
 
